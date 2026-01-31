@@ -158,7 +158,7 @@
 </template>
 
 <script>
-import { ref, computed, watch } from 'vue';
+import { ref, computed } from 'vue';
 import SkillService from '@/data/SkillService.js';
 import { 
   targetLabels, 
@@ -396,31 +396,6 @@ export default {
       );
     };
 
-    // 检查技能是否有状态效果
-    const hasStatusEffectsForSkill = (skillId) => {
-      return getStatusEffectItemsForSkill(skillId).length > 0;
-    };
-
-    // 获取技能的状态效果项
-    const getStatusEffectItemsForSkill = (skillId) => {
-      const items = [];
-      const skill = getSkillDataById(skillId);
-      if (!skill) return items;
-      
-      for (let i = 1; i <= 10; i++) {
-        const statusId = skill[`status_add${i}`];
-        if (statusId) {
-          items.push({
-            index: i,
-            statusId: statusId,
-            probability: skill[`status_prob${i}`],
-            target: skill[`status_target${i}`]
-          });
-        }
-      }
-      return items;
-    };
-
     // 检查技能是否有伤害信息
     const hasDamageInfoForSkill = (skillId) => {
       const skill = getSkillDataById(skillId);
@@ -633,8 +608,6 @@ export default {
       getDamageMultiplier,
       hasTotalSkillInfo,
       hasBasicSkillInfo,
-      hasStatusEffectsForSkill,
-      getStatusEffectItemsForSkill,
       hasDamageInfoForSkill,
       getDamageItemsForSkill,
       getDamageStatusForSkill,
@@ -743,7 +716,6 @@ export default {
   font-style: italic;
 }
 
-/* 从SkillTriggerSection复制的样式 */
 .skill-trigger {
   margin-top: 10px;
   padding: 8px;

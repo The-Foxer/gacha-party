@@ -165,10 +165,6 @@ export default {
       type: Object,
       required: true
     },
-    statusesData: {
-      type: Object,
-      required: true
-    },
     statusDetails: {
       type: Object,
       required: true
@@ -251,21 +247,6 @@ export default {
         }
       }
       return false;
-    },
-    getStatusEffectItems(skillId) {
-      const items = [];
-      for (let i = 1; i <= 10; i++) {
-        const statusId = this.allSkillsData[skillId][`status_add${i}`];
-        if (statusId) {
-          items.push({
-            index: i,
-            statusId: statusId,
-            probability: this.allSkillsData[skillId][`status_prob${i}`],
-            target: this.allSkillsData[skillId][`status_target${i}`]
-          });
-        }
-      }
-      return items;
     },
     
     // 检查技能是否有伤害信息

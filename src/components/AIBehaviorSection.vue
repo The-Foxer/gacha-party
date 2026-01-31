@@ -47,8 +47,7 @@
                         :id="`${stageName}-${index}-${idx}-range`" />
                     </template>
                     <template v-else>
-                      {{ translateValue(escapeHtml(formatParameterValue(typeof prop.value === 'object' ?
-                        prop.value.param || prop.value.method || JSON.stringify(prop.value) : prop.value))) }}
+                      {{ translateValue(escapeHtml(formatParameterValue(typeof prop.value === 'object' ? prop.value.param || prop.value.method || JSON.stringify(prop.value) : prop.value))) }}
                     </template>
                   </template>
                   <span v-if="idx < node.properties.length - 1">, </span>
@@ -78,7 +77,6 @@
 
 <script>
 import AIBehaviorService from '@/data/AIBehaviorService.js';
-import { skillTypeLabels } from '@/utils/labelsConfig';
 import RangeVisualizer from './RangeVisualizer.vue';
 
 export default {
@@ -157,6 +155,7 @@ export default {
         node.yield !== undefined ||
         (node.children && node.children.length > 0);
     },
+    
     // 检查是否有与技能类型相关的AI行为
     hasSkillRelatedAiBehavior(skillId, skillType) {
       //console.log(`检查技能类型 ${skillType} (${skillTypeLabels[skillType] || `未知类型(${skillType})`}) 是否有相关AI行为`);
@@ -215,20 +214,6 @@ export default {
       }
 
       return skillBehaviors;
-    },
-
-    // 检查节点是否有参数
-    hasParam(node) {
-      return node.param !== undefined && node.param !== null ||
-        (node.properties && node.properties.length > 0) ||
-        node.originalObject !== undefined;
-    },
-
-    // 检查是否有参数（辅助方法）
-    hasParam(node) {
-      return node.param !== undefined && node.param !== null ||
-        (node.properties && node.properties.length > 0) ||
-        node.originalObject !== undefined;
     },
 
     // 检查是否为复杂对象
@@ -735,14 +720,5 @@ ul {
   font-size: 0.8em;
   display: block;
   margin-top: 5px;
-}
-
-.debug-info {
-  margin-top: 5px;
-  padding: 5px;
-  background-color: #f8f9fa;
-  border-left: 2px solid #ccc;
-  font-size: 0.7em;
-  color: #666;
 }
 </style>
