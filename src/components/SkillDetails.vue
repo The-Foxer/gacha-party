@@ -36,7 +36,7 @@
 
             <div v-if="skill.data" class="skill-data">
               <!-- 基础技能信息 -->
-              <div v-if="skill.skillData" class="basic-skill-info">
+              <div v-if="hasTriggeredSkills(skill.data)" class="basic-skill-info">
                 <SkillTriggerSection :skill-data="skill.data" :skill-names="skillNames"
                   :skill-data-details="skillDataDetails" :all-skills-data="allSkillsData"
                   :total-skills-data="totalSkillsData" :statuses-data="statusesData" :status-details="statusDetails"
@@ -44,19 +44,11 @@
               </div>
 
               <!-- 新增的AI和配置关联组件 -->
-              <AiAndCfgSection 
-                v-if="skill.data.ai_and_cfg"
-                :skill-id="skill.id"
-                :skill-data="skill.data"
-                :skill-ai-behavior-data="skillAiBehaviorData"
-                :skill-names="skillNames"
-                :skill-data-details="skillDataDetails"
-                :all-skills-data="allSkillsData"
-                :total-skills-data="totalSkillsData"
-                :statuses-data="statusesData"
-                :status-details="statusDetails"
-                :status-names="statusNames"
-              />
+              <AiAndCfgSection v-if="skill.data.ai_and_cfg" :skill-id="skill.id" :skill-data="skill.data"
+                :skill-ai-behavior-data="skillAiBehaviorData" :skill-names="skillNames"
+                :skill-data-details="skillDataDetails" :all-skills-data="allSkillsData"
+                :total-skills-data="totalSkillsData" :statuses-data="statusesData" :status-details="statusDetails"
+                :status-names="statusNames" />
 
               <!-- 在SkillDetails.vue的模板中更新AIBehaviorSection组件的使用 -->
               <AIBehaviorSection v-if="roleBasedAiBehaviors" :skill-id="skill.id" :skill-type="skill.type"
@@ -327,13 +319,13 @@ export default {
         // 创建技能名称映射
         const skillNameMap = {};
         const skillDesMap = {};
-        
+
         // 先处理总技能数据
         Object.keys(totalSkillsJson).forEach(key => {
           skillNameMap[key] = totalSkillsJson[key].name || `未知技能 ${key}`;
           skillDesMap[key] = totalSkillsJson[key].description || '';
         });
-        
+
         // 再处理基础技能数据（优先级较低）
         Object.keys(skillsJson).forEach(key => {
           if (!skillNameMap[key]) {
@@ -343,7 +335,7 @@ export default {
             skillDesMap[key] = skillsJson[key].des || '';
           }
         });
-        
+
         skillNames.value = skillNameMap;
         skillDataDetails.value = skillDesMap;
 
@@ -427,6 +419,19 @@ export default {
       }
     };
 
+    // 在 setup 函数中添加此方法
+const hasTriggeredSkills = (skillData) => {
+  if (!skillData) return false;
+  
+  for (let i = 1; i <= 10; i++) {
+    const skillField = `skill${i}`;
+    if (skillData[skillField]) {
+      return true;
+    }
+  }
+  return false;
+};
+
     const loadSkills = async () => {
       skills.value = await getCharacterSkills(props.characterId);
     };
@@ -466,6 +471,7 @@ export default {
       roleBasedAiBehaviors,
       loading,
       debugMode,
+      hasTriggeredSkills,
       getSkillTypeLabel,
       getTargetLabel,
       getStatusTypeName,
