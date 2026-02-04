@@ -224,6 +224,9 @@ export default {
 
       if (props.skillAiBehaviorData && props.skillData.ai_and_cfg) {
         const cfg = props.skillAiBehaviorData[props.skillData.ai_and_cfg]?.cfg;
+        const bullet = props.skillAiBehaviorData[props.skillData.ai_and_cfg]?.bullet;
+        console.log('cfg:', cfg);
+        console.log('bullet:', bullet);
 
         if (cfg) {
           // 遍历所有配置键名
@@ -264,7 +267,37 @@ export default {
             }
           }
         }
+        // 处理 bullet 部分
+    if (bullet) {
+      for (const bulletKey in bullet) {
+        const bulletValue = bullet[bulletKey];
+        const skillIds = [];
+
+        if (typeof bulletValue === 'object' && bulletValue !== null) {
+          // 从 attack.exe_tbl 中提取技能 ID
+          if (bulletValue.attack?.exe_tbl && Array.isArray(bulletValue.attack.exe_tbl)) {
+            for (const exeItem of bulletValue.attack.exe_tbl) {
+              if (exeItem.id) {
+                const skillId = exeItem.id.toString();
+                if (!skillIds.includes(skillId)) {
+                  skillIds.push(skillId);
+                }
+              }
+            }
+          }
+
+          // 递归查找嵌套的 exe_tbl
+          findSkillIdsInObject(bulletValue, skillIds);
+        }
+
+        if (skillIds.length > 0) {
+          mappings.push({
+            configKey: `bullet.${bulletKey}`, // 区分 bullet 和 cfg 的键名
+            skillIds: skillIds
+          });
+        }
       }
+      }}
 
       return mappings;
     });

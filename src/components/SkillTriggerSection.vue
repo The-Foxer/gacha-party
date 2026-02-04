@@ -180,13 +180,16 @@ export default {
     },
     triggeredSkillIds() {
       const ids = [];
+      //console.log('技能触发字段:', this.skillData)
       // 检查所有可能的技能触发字段
       for (let i = 1; i <= 10; i++) {
         const skillField = `skill${i}`;
         if (this.skillData[skillField]) {
           ids.push(this.skillData[skillField].toString());
         }
+        //console.log('技能触发字段:', skillField);
       }
+      //console.log('触发技能ID:', ids);
       return ids;
     }
   },

@@ -304,6 +304,7 @@ export default {
           }
 
           processedSkills.push(skillInfo);
+          console.log('技能数据:', skillInfo);
         }
 
         roleBasedAiBehaviors.value = await loadRoleBasedAiBehaviors(characterId);
