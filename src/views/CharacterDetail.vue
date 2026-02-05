@@ -296,16 +296,19 @@ export default {
       
       return uniqueVariants;
     });
+
+    
     
     // 基础形态（含升星）
     const baseStarVariants = computed(() => {
       if (!character.value) return [];
-      
       return variants.value.filter(variant => {
         // 同一基础角色，非皮肤，非巨大化
+        //console.log('variant:', variant);
         return variant.variantsInfo?.baseId === character.value.variantsInfo?.baseId && 
                !variant.variantsInfo?.isSkin && 
-               !variant.variantsInfo?.isHuge;
+               !variant.variantsInfo?.isHuge &&
+               !variant.variantsInfo?.isHidden;
       });
     });
 
@@ -314,7 +317,6 @@ export default {
       if (!character.value) return {};
       
       const skinVariants = variants.value.filter(variant => {
-        // 有皮肤标识或skin字段与基础ID不同
         return variant.variantsInfo?.isSkin || 
                (variant.skin && variant.skin !== variant.variantsInfo?.baseId);
       });
@@ -324,10 +326,13 @@ export default {
       skinVariants.forEach(variant => {
         // 使用skin字段作为皮肤名称的主要来源
         let skinField = variant.spine_model || variant.variantsInfo?.baseId;
-        
+        if (!variant.variantsInfo?.isSkin) {
+          return;
+        }
         if (!grouped[skinField]) {
           grouped[skinField] = [];
         }
+        
         grouped[skinField].push(variant);
       });
       
@@ -354,7 +359,8 @@ export default {
       
       return variants.value.filter(variant => {
         // 是巨大化形态
-        return variant.variantsInfo?.isHuge;
+        return variant.variantsInfo?.isHuge &&
+               variant.variantsInfo?.isHidden;
       });
     });
     

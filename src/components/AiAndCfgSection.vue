@@ -225,8 +225,8 @@ export default {
       if (props.skillAiBehaviorData && props.skillData.ai_and_cfg) {
         const cfg = props.skillAiBehaviorData[props.skillData.ai_and_cfg]?.cfg;
         const bullet = props.skillAiBehaviorData[props.skillData.ai_and_cfg]?.bullet;
-        console.log('cfg:', cfg);
-        console.log('bullet:', bullet);
+        //console.log('cfg:', cfg);
+        //console.log('bullet:', bullet);
 
         if (cfg) {
           // 遍历所有配置键名

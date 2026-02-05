@@ -66,7 +66,7 @@ class CharacterService {
       .replace(/_skin.*$/, '')  // 移除_skin及其后续字符
       .replace(/_up.*$/, '')    // 移除_up及其后续字符
       .replace(/_big$/, '')     // 移除_big
-      .replace(/90$/, '');      // 移除90结尾
+      // .replace(/90$/, '');      // 移除90结尾
   }
 
   // 获取星级信息
@@ -135,15 +135,18 @@ class CharacterService {
     
     // 为每个角色添加变体信息
     return result.map(char => {
-      const baseId = this.getBaseId(char.id);
-      const isSkin = char.id.includes('_skin');
+      const baseId = this.getBaseId(char.kv);
+      const isSkin = char.kv.includes('_skin');
       const isUpgrade = char.id.includes('_up');
       const isHuge = char.id.includes('_big');
+      const isHidden = this.hiddenCharactersList.includes(char.id);
       const starLevel = this.getStarLevel(char.id);
-      const skinName = isSkin ? this.extractSkinName(char.id) : null;
+      const skinName = isSkin ? char.kv : null;
+
+      // console.log('Character:', char.id, 'Base ID:', baseId, 'Is Skin', isSkin, 'Skin Name:', skinName, 'Star Level:', starLevel);
       
       // 使用skin字段作为皮肤分类依据
-      const skinField = char.skin || baseId;
+      const skinField = char.kv || baseId;
       
       return {
         ...char,
@@ -151,6 +154,7 @@ class CharacterService {
           isSkin,
           isUpgrade,
           isHuge,
+          isHidden,
           baseId,
           skinName,
           starLevel,

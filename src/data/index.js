@@ -5,7 +5,6 @@ const allCharacters = Object.values(charactersRaw);
 
 // 隐藏角色列表（后续可以添加具体角色ID）
 const hiddenCharactersList = [
-    '1109',
     '1198',
     '4545',
     '6666',
