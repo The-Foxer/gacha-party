@@ -6218,6 +6218,12 @@
     "status_type": 202,
     "value1": 0.19
   },
+  "202020": {
+    "id": 202020,
+    "name": "受到的伤害降低20%",
+    "status_type": 202,
+    "value1": 0.2
+  },
   "202021": {
     "id": 202021,
     "name": "受到的伤害降低21%",
@@ -6921,6 +6927,14 @@
     "target1": 2,
     "param1": 5,
     "value1": -0.5
+  },
+  "238090": {
+    "id": 238090,
+    "name": "攻速减少90%",
+    "status_type": 238,
+    "target1": 2,
+    "param1": 5,
+    "value1": -0.9
   },
   "238100": {
     "id": 238100,
@@ -12576,6 +12590,390 @@
     "offsetZ": 15,
     "effecttarget": 2
   },
+  "1019010": {
+    "id": 1019010,
+    "name": "10%倍率波伤效果数值5填写9",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.1,
+    "value5": "9"
+  },
+  "1019020": {
+    "id": 1019020,
+    "name": "20%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.2,
+    "value5": "9"
+  },
+  "1019030": {
+    "id": 1019030,
+    "name": "30%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.3,
+    "value5": "9"
+  },
+  "1019040": {
+    "id": 1019040,
+    "name": "40%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.4,
+    "value5": "9"
+  },
+  "1019050": {
+    "id": 1019050,
+    "name": "50%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.5,
+    "value5": "9"
+  },
+  "1019052": {
+    "id": 1019052,
+    "name": "普攻伤害，攻击力的0.5倍（附带洛可可皮肤礼盒被打特效）",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.5,
+    "value5": "9",
+    "effect": "1410_tm_effect",
+    "ani": "buff1",
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0,
+    "effecttarget": 1
+  },
+  "1019053": {
+    "id": 1019053,
+    "name": "普攻伤害，攻击力的0.5倍（附带洛可可皮肤礼盒被打特效）",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.5,
+    "value5": "9",
+    "effect": "1410_skin1_tm_effect",
+    "ani": "buff1",
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0,
+    "effecttarget": 1
+  },
+  "1019060": {
+    "id": 1019060,
+    "name": "60%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.6,
+    "value5": "9"
+  },
+  "1019070": {
+    "id": 1019070,
+    "name": "70%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.7,
+    "value5": "9"
+  },
+  "1019075": {
+    "id": 1019075,
+    "name": "75%倍率波伤(莱拉专用）",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.7,
+    "value5": "9"
+  },
+  "1019080": {
+    "id": 1019080,
+    "name": "80%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.8,
+    "value5": "9"
+  },
+  "1019090": {
+    "id": 1019090,
+    "name": "90%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 0.9,
+    "value5": "9"
+  },
+  "1019100": {
+    "id": 1019100,
+    "name": "100%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1,
+    "value5": "9"
+  },
+  "1019102": {
+    "id": 1019102,
+    "name": "普攻伤害，攻击力的1倍（附带特制音叉被打特效）",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1,
+    "value5": "9",
+    "effect": "1410_tm2_effect",
+    "ani": "buff1",
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0,
+    "effecttarget": 1
+  },
+  "1019103": {
+    "id": 1019103,
+    "name": "普攻伤害，攻击力的1倍（附带特制音叉被打特效）",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1,
+    "value5": "9",
+    "effect": "1410_skin1_tm2_effect",
+    "ani": "buff1",
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0,
+    "effecttarget": 1
+  },
+  "1019110": {
+    "id": 1019110,
+    "name": "110%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.1,
+    "value5": "9"
+  },
+  "1019120": {
+    "id": 1019120,
+    "name": "120%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.2,
+    "value5": "9"
+  },
+  "1019130": {
+    "id": 1019130,
+    "name": "130%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.3,
+    "value5": "9"
+  },
+  "1019140": {
+    "id": 1019140,
+    "name": "140%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.4,
+    "value5": "9"
+  },
+  "1019150": {
+    "id": 1019150,
+    "name": "150%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.5,
+    "value5": "9"
+  },
+  "1019160": {
+    "id": 1019160,
+    "name": "160%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.6,
+    "value5": "9"
+  },
+  "1019170": {
+    "id": 1019170,
+    "name": "170%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.7,
+    "value5": "9"
+  },
+  "1019180": {
+    "id": 1019180,
+    "name": "180%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.8,
+    "value5": "9"
+  },
+  "1019190": {
+    "id": 1019190,
+    "name": "190%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 1.9,
+    "value5": "9"
+  },
+  "1019200": {
+    "id": 1019200,
+    "name": "200%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 2,
+    "value5": "9"
+  },
+  "1019250": {
+    "id": 1019250,
+    "name": "250%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 2.5,
+    "value5": "9"
+  },
+  "1019300": {
+    "id": 1019300,
+    "name": "300%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 3,
+    "value5": "9"
+  },
+  "1019350": {
+    "id": 1019350,
+    "name": "350%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 3.5,
+    "value5": "9"
+  },
+  "1019400": {
+    "id": 1019400,
+    "name": "400%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 4,
+    "value5": "9"
+  },
+  "1019450": {
+    "id": 1019450,
+    "name": "450%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 4.5,
+    "value5": "9"
+  },
+  "1019500": {
+    "id": 1019500,
+    "name": "500%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 5,
+    "value5": "9"
+  },
+  "1019550": {
+    "id": 1019550,
+    "name": "550%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 5.5,
+    "value5": "9"
+  },
+  "1019600": {
+    "id": 1019600,
+    "name": "600%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 6,
+    "value5": "9"
+  },
+  "1019650": {
+    "id": 1019650,
+    "name": "650%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 6.5,
+    "value5": "9"
+  },
+  "1019700": {
+    "id": 1019700,
+    "name": "700%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 7,
+    "value5": "9"
+  },
+  "1019750": {
+    "id": 1019750,
+    "name": "750%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 7.5,
+    "value5": "9"
+  },
+  "1019800": {
+    "id": 1019800,
+    "name": "800%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 8,
+    "value5": "9"
+  },
+  "1019850": {
+    "id": 1019850,
+    "name": "850%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 8.5,
+    "value5": "9"
+  },
+  "1019900": {
+    "id": 1019900,
+    "name": "900%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 9,
+    "value5": "9"
+  },
+  "1019950": {
+    "id": 1019950,
+    "name": "950%倍率波伤",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 9.5,
+    "value5": "9"
+  },
   "1020014": {
     "id": 1020014,
     "name": "恢复来源攻击力1.4倍生命",
@@ -14927,7 +15325,7 @@
     "name": "积蓄200冰冻(新农民用）",
     "status_type": 502,
     "value1": "frozen",
-    "value2": 100,
+    "value2": 200,
     "effect": "xueren_effect",
     "ani": "xp",
     "offsetX": 0,
@@ -15599,6 +15997,15 @@
     "param1": 1,
     "value1": 15,
     "value5": "8"
+  },
+  "10191000": {
+    "id": 10191000,
+    "name": "1000%倍率波伤效果数值5填写9",
+    "status_type": 101,
+    "target1": 1,
+    "param1": 1,
+    "value1": 10,
+    "value5": "9"
   },
   "12010799": {
     "id": 12010799,

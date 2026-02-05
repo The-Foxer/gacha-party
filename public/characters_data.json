@@ -176,7 +176,7 @@
     "atk_factor": 0,
     "hp_factor": 40,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1105": {
     "id": "1105",
@@ -354,7 +354,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1111": {
     "id": "1111",
@@ -402,7 +402,7 @@
     "hp_factor": 40,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1112": {
     "id": "1112",
@@ -450,7 +450,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 16,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1113": {
     "id": "1113",
@@ -494,6 +494,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 30,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -584,7 +585,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1,
-    "hp_factor": 8
+    "hp_factor": 8,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1202": {
     "id": "1202",
@@ -721,7 +723,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1,
-    "hp_factor": 4
+    "hp_factor": 4,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1205": {
     "id": "1205",
@@ -769,7 +772,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 4,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "1209": {
     "id": "1209",
@@ -817,7 +820,7 @@
     "atk_factor": 0,
     "hp_factor": 4,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1210": {
     "id": "1210",
@@ -864,7 +867,7 @@
     "skin_tags": "2",
     "atk_factor": 1,
     "hp_factor": 32,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1211": {
     "id": "1211",
@@ -912,7 +915,7 @@
     "anti_water": 1,
     "atk_factor": 2.7,
     "hp_factor": 16,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1212": {
     "id": "1212",
@@ -960,7 +963,7 @@
     "skin_tags": "2",
     "atk_factor": 1,
     "hp_factor": 8,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1219": {
     "id": "1219",
@@ -1136,7 +1139,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1,
-    "hp_factor": 4
+    "hp_factor": 4,
+    "role_entry": "weak_elec"
   },
   "1304": {
     "id": "1304",
@@ -1181,7 +1185,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1305": {
     "id": "1305",
@@ -1224,7 +1228,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1,
-    "hp_factor": 8
+    "hp_factor": 8,
+    "role_entry": "weak_elec"
   },
   "1309": {
     "id": "1309",
@@ -1355,7 +1360,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1,
-    "hp_factor": 28
+    "hp_factor": 28,
+    "role_entry": "weak_elec"
   },
   "1312": {
     "id": "1312",
@@ -1401,7 +1407,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1401": {
     "id": "1401",
@@ -1493,7 +1499,7 @@
     "atk_factor": 1,
     "hp_factor": 40,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1403": {
     "id": "1403",
@@ -1631,7 +1637,7 @@
     "atk_factor": 1,
     "hp_factor": 4,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1407": {
     "id": "1407",
@@ -1815,7 +1821,7 @@
     "atk_factor": 1.1,
     "hp_factor": 13.2,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1411": {
     "id": "1411",
@@ -2001,7 +2007,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1,
-    "hp_factor": 20
+    "hp_factor": 20,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1611": {
     "id": "1611",
@@ -2033,7 +2040,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -2047,7 +2054,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1,
-    "hp_factor": 52
+    "hp_factor": 52,
+    "role_entry": "threat_roll"
   },
   "1612": {
     "id": "1612",
@@ -2124,7 +2132,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -2139,7 +2147,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1,
-    "hp_factor": 8
+    "hp_factor": 8,
+    "role_entry": "weak_ice"
   },
   "1711": {
     "id": "1711",
@@ -2173,7 +2182,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -2187,7 +2196,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1,
-    "hp_factor": 24
+    "hp_factor": 24,
+    "role_entry": "weak_ice"
   },
   "1712": {
     "id": "1712",
@@ -2220,7 +2230,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -2235,7 +2245,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1713": {
     "id": "1713",
@@ -2268,7 +2278,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -2283,7 +2293,6 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 24,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1714": {
@@ -2316,7 +2325,6 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -2472,7 +2480,7 @@
     "anti_water": 1,
     "atk_factor": 1.5,
     "hp_factor": 6,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1811": {
@@ -4024,7 +4032,7 @@
     "atk_factor": 0,
     "hp_factor": 44,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_up2": {
     "id": "1104_up2",
@@ -4069,7 +4077,7 @@
     "atk_factor": 0,
     "hp_factor": 48,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_up3": {
     "id": "1104_up3",
@@ -4114,7 +4122,7 @@
     "atk_factor": 0,
     "hp_factor": 52,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_up4": {
     "id": "1104_up4",
@@ -4159,7 +4167,7 @@
     "atk_factor": 0,
     "hp_factor": 56,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_up5": {
     "id": "1104_up5",
@@ -4204,7 +4212,7 @@
     "atk_factor": 0,
     "hp_factor": 60,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1105_up1": {
     "id": "1105_up1",
@@ -4973,7 +4981,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "pao_up1": {
     "id": "pao_up1",
@@ -5019,7 +5027,7 @@
     "recall": 0,
     "atk_factor": 1.65,
     "hp_factor": 4.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "pao_up2": {
     "id": "pao_up2",
@@ -5065,7 +5073,7 @@
     "recall": 0,
     "atk_factor": 1.8,
     "hp_factor": 4.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "pao_up3": {
     "id": "pao_up3",
@@ -5111,7 +5119,7 @@
     "recall": 0,
     "atk_factor": 1.95,
     "hp_factor": 5.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "pao_up4": {
     "id": "pao_up4",
@@ -5157,7 +5165,7 @@
     "recall": 0,
     "atk_factor": 2.1,
     "hp_factor": 5.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "pao_up5": {
     "id": "pao_up5",
@@ -5203,7 +5211,7 @@
     "recall": 0,
     "atk_factor": 2.25,
     "hp_factor": 6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "biaohua": {
     "id": "biaohua",
@@ -5519,7 +5527,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1110_up2": {
     "id": "1110_up2",
@@ -5566,7 +5574,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1110_up3": {
     "id": "1110_up3",
@@ -5613,7 +5621,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1110_up4": {
     "id": "1110_up4",
@@ -5660,7 +5668,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1110_up5": {
     "id": "1110_up5",
@@ -5707,7 +5715,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1"
+    "role_entry": "threat_roll,elite"
   },
   "1111_up1": {
     "id": "1111_up1",
@@ -5756,7 +5764,7 @@
     "hp_factor": 44,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_up2": {
     "id": "1111_up2",
@@ -5805,7 +5813,7 @@
     "hp_factor": 48,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_up3": {
     "id": "1111_up3",
@@ -5854,7 +5862,7 @@
     "hp_factor": 52,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_up4": {
     "id": "1111_up4",
@@ -5903,7 +5911,7 @@
     "hp_factor": 56,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_up5": {
     "id": "1111_up5",
@@ -5952,7 +5960,7 @@
     "hp_factor": 60,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1112_up1": {
     "id": "1112_up1",
@@ -6001,7 +6009,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.65,
     "hp_factor": 17.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1112_up2": {
     "id": "1112_up2",
@@ -6050,7 +6058,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.8,
     "hp_factor": 19.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1112_up3": {
     "id": "1112_up3",
@@ -6099,7 +6107,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.95,
     "hp_factor": 20.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1112_up4": {
     "id": "1112_up4",
@@ -6148,7 +6156,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 2.1,
     "hp_factor": 22.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1112_up5": {
     "id": "1112_up5",
@@ -6197,7 +6205,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 2.25,
     "hp_factor": 24,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_dig"
   },
   "1113_up1": {
     "id": "1113_up1",
@@ -6242,6 +6250,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 33,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -6288,6 +6297,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 36,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -6334,6 +6344,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 39,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -6380,6 +6391,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 42,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -6426,6 +6438,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 45,
+    "role_entry": "threat_roll",
     "defult_height": 10,
     "formation_career": "fighter"
   },
@@ -6473,7 +6486,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1.1,
-    "hp_factor": 8.8
+    "hp_factor": 8.8,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1201_up2": {
     "id": "1201_up2",
@@ -6519,7 +6533,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1.2,
-    "hp_factor": 9.6
+    "hp_factor": 9.6,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1201_up3": {
     "id": "1201_up3",
@@ -6565,7 +6580,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1.3,
-    "hp_factor": 10.4
+    "hp_factor": 10.4,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1201_up4": {
     "id": "1201_up4",
@@ -6611,7 +6627,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1.4,
-    "hp_factor": 11.2
+    "hp_factor": 11.2,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1201_up5": {
     "id": "1201_up5",
@@ -6657,7 +6674,8 @@
     "kv": "1201",
     "recall": 0,
     "atk_factor": 1.5,
-    "hp_factor": 12
+    "hp_factor": 12,
+    "role_entry": "threat_sneak,weak_light"
   },
   "1202_up1": {
     "id": "1202_up1",
@@ -7173,7 +7191,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1.1,
-    "hp_factor": 4.4
+    "hp_factor": 4.4,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1204_up2": {
     "id": "1204_up2",
@@ -7219,7 +7238,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1.2,
-    "hp_factor": 4.8
+    "hp_factor": 4.8,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1204_up3": {
     "id": "1204_up3",
@@ -7265,7 +7285,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1.3,
-    "hp_factor": 5.2
+    "hp_factor": 5.2,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1204_up4": {
     "id": "1204_up4",
@@ -7311,7 +7332,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1.4,
-    "hp_factor": 5.6
+    "hp_factor": 5.6,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1204_up5": {
     "id": "1204_up5",
@@ -7357,7 +7379,8 @@
     "kv": "25",
     "recall": 1,
     "atk_factor": 1.5,
-    "hp_factor": 6
+    "hp_factor": 6,
+    "role_entry": "threat_sneak,threat_roll,weak_light"
   },
   "1205_up1": {
     "id": "1205_up1",
@@ -7406,7 +7429,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 4.4,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "1205_up2": {
     "id": "1205_up2",
@@ -7455,7 +7478,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 4.8,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "1205_up3": {
     "id": "1205_up3",
@@ -7504,7 +7527,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 5.2,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "1205_up4": {
     "id": "1205_up4",
@@ -7553,7 +7576,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 5.6,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "1205_up5": {
     "id": "1205_up5",
@@ -7602,7 +7625,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 6,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak,weak_light"
   },
   "change": {
     "id": "change",
@@ -7647,7 +7670,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 24,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "change_up1": {
     "id": "change_up1",
@@ -7693,7 +7716,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 26.4,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "change_up2": {
     "id": "change_up2",
@@ -7739,7 +7762,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 28.8,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "change_up3": {
     "id": "change_up3",
@@ -7785,7 +7808,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 31.2,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "change_up4": {
     "id": "change_up4",
@@ -7831,7 +7854,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 33.6,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "change_up5": {
     "id": "change_up5",
@@ -7877,7 +7900,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 36,
-    "role_entry": "11"
+    "role_entry": "threat_sneak,weak_light"
   },
   "dengpao": {
     "id": "dengpao",
@@ -7923,7 +7946,7 @@
     "atk_factor": 0,
     "hp_factor": 40,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "dengpao_up1": {
     "id": "dengpao_up1",
@@ -7970,7 +7993,7 @@
     "atk_factor": 0,
     "hp_factor": 44,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "dengpao_up2": {
     "id": "dengpao_up2",
@@ -8017,7 +8040,7 @@
     "atk_factor": 0,
     "hp_factor": 48,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "dengpao_up3": {
     "id": "dengpao_up3",
@@ -8064,7 +8087,7 @@
     "atk_factor": 0,
     "hp_factor": 52,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "dengpao_up4": {
     "id": "dengpao_up4",
@@ -8111,7 +8134,7 @@
     "atk_factor": 0,
     "hp_factor": 56,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "dengpao_up5": {
     "id": "dengpao_up5",
@@ -8158,7 +8181,7 @@
     "atk_factor": 0,
     "hp_factor": 60,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1209_up1": {
     "id": "1209_up1",
@@ -8207,7 +8230,7 @@
     "atk_factor": 0,
     "hp_factor": 4.4,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1209_up2": {
     "id": "1209_up2",
@@ -8256,7 +8279,7 @@
     "atk_factor": 0,
     "hp_factor": 4.8,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1209_up3": {
     "id": "1209_up3",
@@ -8305,7 +8328,7 @@
     "atk_factor": 0,
     "hp_factor": 5.2,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1209_up4": {
     "id": "1209_up4",
@@ -8354,7 +8377,7 @@
     "atk_factor": 0,
     "hp_factor": 5.6,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1209_up5": {
     "id": "1209_up5",
@@ -8403,7 +8426,7 @@
     "atk_factor": 0,
     "hp_factor": 6,
     "magic_factor": 0,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1210_up1": {
     "id": "1210_up1",
@@ -8450,7 +8473,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 35.2,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1210_up2": {
     "id": "1210_up2",
@@ -8497,7 +8520,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 38.4,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1210_up3": {
     "id": "1210_up3",
@@ -8544,7 +8567,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 41.6,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1210_up4": {
     "id": "1210_up4",
@@ -8591,7 +8614,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 44.8,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1210_up5": {
     "id": "1210_up5",
@@ -8638,7 +8661,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 48,
-    "role_entry": "1,11"
+    "role_entry": "threat_roll,threat_sneak"
   },
   "1211_up1": {
     "id": "1211_up1",
@@ -8687,7 +8710,7 @@
     "anti_water": 1,
     "atk_factor": 2.97,
     "hp_factor": 17.6,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1211_up2": {
     "id": "1211_up2",
@@ -8736,7 +8759,7 @@
     "anti_water": 1,
     "atk_factor": 3.24,
     "hp_factor": 19.2,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1211_up3": {
     "id": "1211_up3",
@@ -8785,7 +8808,7 @@
     "anti_water": 1,
     "atk_factor": 3.51,
     "hp_factor": 20.8,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1211_up4": {
     "id": "1211_up4",
@@ -8834,7 +8857,7 @@
     "anti_water": 1,
     "atk_factor": 3.78,
     "hp_factor": 22.4,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1211_up5": {
     "id": "1211_up5",
@@ -8883,7 +8906,7 @@
     "anti_water": 1,
     "atk_factor": 4.05,
     "hp_factor": 24,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1212_up1": {
     "id": "1212_up1",
@@ -8931,7 +8954,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 8.8,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1212_up2": {
     "id": "1212_up2",
@@ -8979,7 +9002,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 9.6,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1212_up3": {
     "id": "1212_up3",
@@ -9027,7 +9050,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 10.4,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1212_up4": {
     "id": "1212_up4",
@@ -9075,7 +9098,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 11.2,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1212_up5": {
     "id": "1212_up5",
@@ -9123,7 +9146,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 12,
-    "role_entry": "8,11"
+    "role_entry": "threat_catch,threat_sneak,weak_light"
   },
   "1301_up1": {
     "id": "1301_up1",
@@ -9614,7 +9637,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
-    "hp_factor": 4.4
+    "hp_factor": 4.4,
+    "role_entry": "weak_elec"
   },
   "1303_up2": {
     "id": "1303_up2",
@@ -9660,7 +9684,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
-    "hp_factor": 4.8
+    "hp_factor": 4.8,
+    "role_entry": "weak_elec"
   },
   "1303_up3": {
     "id": "1303_up3",
@@ -9706,7 +9731,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
-    "hp_factor": 5.2
+    "hp_factor": 5.2,
+    "role_entry": "weak_elec"
   },
   "1303_up4": {
     "id": "1303_up4",
@@ -9752,7 +9778,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
-    "hp_factor": 5.6
+    "hp_factor": 5.6,
+    "role_entry": "weak_elec"
   },
   "1303_up5": {
     "id": "1303_up5",
@@ -9798,7 +9825,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
-    "hp_factor": 6
+    "hp_factor": 6,
+    "role_entry": "weak_elec"
   },
   "1304_up1": {
     "id": "1304_up1",
@@ -9844,7 +9872,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_up2": {
     "id": "1304_up2",
@@ -9890,7 +9918,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_up3": {
     "id": "1304_up3",
@@ -9936,7 +9964,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_up4": {
     "id": "1304_up4",
@@ -9982,7 +10010,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_up5": {
     "id": "1304_up5",
@@ -10028,7 +10056,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1305_up1": {
     "id": "1305_up1",
@@ -10072,7 +10100,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
-    "hp_factor": 8.8
+    "hp_factor": 8.8,
+    "role_entry": "weak_elec"
   },
   "1305_up2": {
     "id": "1305_up2",
@@ -10116,7 +10145,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
-    "hp_factor": 9.6
+    "hp_factor": 9.6,
+    "role_entry": "weak_elec"
   },
   "1305_up3": {
     "id": "1305_up3",
@@ -10160,7 +10190,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
-    "hp_factor": 10.4
+    "hp_factor": 10.4,
+    "role_entry": "weak_elec"
   },
   "1305_up4": {
     "id": "1305_up4",
@@ -10204,7 +10235,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
-    "hp_factor": 11.2
+    "hp_factor": 11.2,
+    "role_entry": "weak_elec"
   },
   "1305_up5": {
     "id": "1305_up5",
@@ -10248,7 +10280,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
-    "hp_factor": 12
+    "hp_factor": 12,
+    "role_entry": "weak_elec"
   },
   "fengshan": {
     "id": "fengshan",
@@ -11517,7 +11550,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1.1,
-    "hp_factor": 30.8
+    "hp_factor": 30.8,
+    "role_entry": "weak_elec"
   },
   "1311_up2": {
     "id": "1311_up2",
@@ -11563,7 +11597,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1.2,
-    "hp_factor": 33.6
+    "hp_factor": 33.6,
+    "role_entry": "weak_elec"
   },
   "1311_up3": {
     "id": "1311_up3",
@@ -11609,7 +11644,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1.3,
-    "hp_factor": 36.4
+    "hp_factor": 36.4,
+    "role_entry": "weak_elec"
   },
   "1311_up4": {
     "id": "1311_up4",
@@ -11655,7 +11691,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1.4,
-    "hp_factor": 39.2
+    "hp_factor": 39.2,
+    "role_entry": "weak_elec"
   },
   "1311_up5": {
     "id": "1311_up5",
@@ -11701,7 +11738,8 @@
     "kv": "1102_skin2",
     "recall": 0,
     "atk_factor": 1.5,
-    "hp_factor": 42
+    "hp_factor": 42,
+    "role_entry": "weak_elec"
   },
   "1312_up1": {
     "id": "1312_up1",
@@ -11749,7 +11787,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 13.2,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1312_up2": {
     "id": "1312_up2",
@@ -11797,7 +11835,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 14.4,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1312_up3": {
     "id": "1312_up3",
@@ -11846,7 +11884,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 15.6,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1312_up4": {
     "id": "1312_up4",
@@ -11895,7 +11933,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 16.8,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1312_up5": {
     "id": "1312_up5",
@@ -11944,7 +11982,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 18,
-    "role_entry": "2,10"
+    "role_entry": "weak_elec,threat_fly"
   },
   "1401_up1": {
     "id": "1401_up1",
@@ -12226,7 +12264,7 @@
     "atk_factor": 1.1,
     "hp_factor": 44,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1402_up2": {
     "id": "1402_up2",
@@ -12273,7 +12311,7 @@
     "atk_factor": 1.2,
     "hp_factor": 48,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1402_up3": {
     "id": "1402_up3",
@@ -12320,7 +12358,7 @@
     "atk_factor": 1.3,
     "hp_factor": 52,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1402_up4": {
     "id": "1402_up4",
@@ -12367,7 +12405,7 @@
     "atk_factor": 1.4,
     "hp_factor": 56,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1402_up5": {
     "id": "1402_up5",
@@ -12414,7 +12452,7 @@
     "atk_factor": 1.5,
     "hp_factor": 60,
     "can_plant_floor": "15,136",
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1403_up1": {
     "id": "1403_up1",
@@ -12927,7 +12965,7 @@
     "atk_factor": 1.1,
     "hp_factor": 4.4,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1405_up2": {
     "id": "1405_up2",
@@ -12975,7 +13013,7 @@
     "atk_factor": 1.2,
     "hp_factor": 4.8,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1405_up3": {
     "id": "1405_up3",
@@ -13023,7 +13061,7 @@
     "atk_factor": 1.3,
     "hp_factor": 5.2,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1405_up4": {
     "id": "1405_up4",
@@ -13071,7 +13109,7 @@
     "atk_factor": 1.4,
     "hp_factor": 5.6,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1405_up5": {
     "id": "1405_up5",
@@ -13119,7 +13157,7 @@
     "atk_factor": 1.5,
     "hp_factor": 6,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "dengqiu": {
     "id": "dengqiu",
@@ -14146,7 +14184,7 @@
     "atk_factor": 1.21,
     "hp_factor": 14.52,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1410_up2": {
     "id": "1410_up2",
@@ -14193,7 +14231,7 @@
     "atk_factor": 1.32,
     "hp_factor": 15.84,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1410_up3": {
     "id": "1410_up3",
@@ -14240,7 +14278,7 @@
     "atk_factor": 1.43,
     "hp_factor": 17.16,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1410_up4": {
     "id": "1410_up4",
@@ -14287,7 +14325,7 @@
     "atk_factor": 1.54,
     "hp_factor": 18.48,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1410_up5": {
     "id": "1410_up5",
@@ -14334,7 +14372,7 @@
     "atk_factor": 1.65,
     "hp_factor": 19.8,
     "can_plant_floor": "15,136",
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_wave"
   },
   "1411_up1": {
     "id": "1411_up1",
@@ -14614,7 +14652,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 4,
@@ -14658,7 +14696,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 4.4,
@@ -14702,7 +14740,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 4.8,
@@ -14746,7 +14784,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 5.2,
@@ -14790,7 +14828,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 5.6,
@@ -14834,7 +14872,7 @@
     "attr": "newyear",
     "shadow": "small",
     "intro": "新禧爱丽丝",
-    "kv": "1501",
+    "kv": "1411",
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 6,
@@ -16404,7 +16442,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16452,7 +16490,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16500,7 +16538,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16548,7 +16586,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16596,7 +16634,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16644,7 +16682,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16692,7 +16730,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16707,7 +16745,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firesheshou_up1": {
     "id": "firesheshou_up1",
@@ -16741,7 +16779,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16756,7 +16794,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 8.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firesheshou_up2": {
     "id": "firesheshou_up2",
@@ -16790,7 +16828,7 @@
     "cd": 9.6,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16805,7 +16843,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 9.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firesheshou_up3": {
     "id": "firesheshou_up3",
@@ -16839,7 +16877,7 @@
     "cd": 9.6,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16854,7 +16892,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 10.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firesheshou_up4": {
     "id": "firesheshou_up4",
@@ -16888,7 +16926,7 @@
     "cd": 7.2,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16903,7 +16941,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 11.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firesheshou_up5": {
     "id": "firesheshou_up5",
@@ -16937,7 +16975,7 @@
     "cd": 7.2,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -16952,7 +16990,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "huozhanshi": {
     "id": "huozhanshi",
@@ -16986,7 +17024,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17035,7 +17073,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17084,7 +17122,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17133,7 +17171,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17182,7 +17220,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17231,7 +17269,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -17277,7 +17315,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17325,7 +17363,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17373,7 +17411,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17421,7 +17459,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17469,7 +17507,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17517,7 +17555,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17565,7 +17603,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17579,7 +17617,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firetank_up1": {
     "id": "firetank_up1",
@@ -17613,7 +17651,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17627,7 +17665,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 13.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firetank_up2": {
     "id": "firetank_up2",
@@ -17661,7 +17699,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17675,7 +17713,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 15.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firetank_up3": {
     "id": "firetank_up3",
@@ -17709,7 +17747,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17723,7 +17761,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 16.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firetank_up4": {
     "id": "firetank_up4",
@@ -17757,7 +17795,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17771,7 +17809,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 18.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "firetank_up5": {
     "id": "firetank_up5",
@@ -17805,7 +17843,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17819,7 +17857,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 20,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_fire"
   },
   "penhuoblue": {
     "id": "penhuoblue",
@@ -17851,7 +17889,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17899,7 +17937,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17947,7 +17985,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -17995,7 +18033,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -18043,7 +18081,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -18091,7 +18129,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 1,
@@ -18136,7 +18174,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18182,7 +18220,7 @@
     "cd": 19,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18228,7 +18266,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18274,7 +18312,7 @@
     "cd": 17,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18320,7 +18358,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18366,7 +18404,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 5,
@@ -18413,7 +18451,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -18459,7 +18497,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -18505,7 +18543,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -18551,7 +18589,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -18597,7 +18635,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -18643,7 +18681,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -19225,7 +19263,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
-    "hp_factor": 22
+    "hp_factor": 22,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1610_up2": {
     "id": "1610_up2",
@@ -19275,7 +19314,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
-    "hp_factor": 24
+    "hp_factor": 24,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1610_up3": {
     "id": "1610_up3",
@@ -19325,7 +19365,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
-    "hp_factor": 26
+    "hp_factor": 26,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1610_up4": {
     "id": "1610_up4",
@@ -19375,7 +19416,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
-    "hp_factor": 28
+    "hp_factor": 28,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1610_up5": {
     "id": "1610_up5",
@@ -19425,7 +19467,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
-    "hp_factor": 30
+    "hp_factor": 30,
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1611_up1": {
     "id": "1611_up1",
@@ -19458,7 +19501,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -19472,7 +19515,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
-    "hp_factor": 57.2
+    "hp_factor": 57.2,
+    "role_entry": "threat_roll"
   },
   "1611_up2": {
     "id": "1611_up2",
@@ -19505,7 +19549,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -19519,7 +19563,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
-    "hp_factor": 62.4
+    "hp_factor": 62.4,
+    "role_entry": "threat_roll"
   },
   "1611_up3": {
     "id": "1611_up3",
@@ -19552,7 +19597,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -19566,7 +19611,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
-    "hp_factor": 67.6
+    "hp_factor": 67.6,
+    "role_entry": "threat_roll"
   },
   "1611_up4": {
     "id": "1611_up4",
@@ -19599,7 +19645,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -19613,7 +19659,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
-    "hp_factor": 72.8
+    "hp_factor": 72.8,
+    "role_entry": "threat_roll"
   },
   "1611_up5": {
     "id": "1611_up5",
@@ -19646,7 +19693,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -19660,7 +19707,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
-    "hp_factor": 78
+    "hp_factor": 78,
+    "role_entry": "threat_roll"
   },
   "1612_up1": {
     "id": "1612_up1",
@@ -19941,7 +19989,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -19989,7 +20037,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20037,7 +20085,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20085,7 +20133,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20133,7 +20181,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20181,7 +20229,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20229,7 +20277,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20245,7 +20293,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "icesheshou_up1": {
     "id": "icesheshou_up1",
@@ -20279,7 +20327,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20295,7 +20343,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 8.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "icesheshou_up2": {
     "id": "icesheshou_up2",
@@ -20329,7 +20377,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20345,7 +20393,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 9.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "icesheshou_up3": {
     "id": "icesheshou_up3",
@@ -20379,7 +20427,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20395,7 +20443,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 10.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "icesheshou_up4": {
     "id": "icesheshou_up4",
@@ -20429,7 +20477,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20445,7 +20493,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 11.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "icesheshou_up5": {
     "id": "icesheshou_up5",
@@ -20479,7 +20527,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20495,7 +20543,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "ice_saiya": {
     "id": "ice_saiya",
@@ -20528,7 +20576,7 @@
     "cd": 40,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20543,7 +20591,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_saiya_up1": {
     "id": "ice_saiya_up1",
@@ -20577,7 +20625,7 @@
     "cd": 40,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20592,7 +20640,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_saiya_up2": {
     "id": "ice_saiya_up2",
@@ -20626,7 +20674,7 @@
     "cd": 32,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20641,7 +20689,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_saiya_up3": {
     "id": "ice_saiya_up3",
@@ -20675,7 +20723,7 @@
     "cd": 32,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20690,7 +20738,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_saiya_up4": {
     "id": "ice_saiya_up4",
@@ -20724,7 +20772,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20739,7 +20787,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_saiya_up5": {
     "id": "ice_saiya_up5",
@@ -20773,7 +20821,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -20788,7 +20836,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "ice_zhiye": {
     "id": "ice_zhiye",
@@ -20819,7 +20867,6 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20833,7 +20880,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1,
-    "hp_factor": 24
+    "hp_factor": 24,
+    "role_entry": "weak_ice"
   },
   "ice_zhiye_up1": {
     "id": "ice_zhiye_up1",
@@ -20865,7 +20913,6 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20879,7 +20926,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1.1,
-    "hp_factor": 26.4
+    "hp_factor": 26.4,
+    "role_entry": "weak_ice"
   },
   "ice_zhiye_up2": {
     "id": "ice_zhiye_up2",
@@ -20911,7 +20959,6 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20925,7 +20972,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1.2,
-    "hp_factor": 28.8
+    "hp_factor": 28.8,
+    "role_entry": "weak_ice"
   },
   "ice_zhiye_up3": {
     "id": "ice_zhiye_up3",
@@ -20957,7 +21005,6 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -20971,7 +21018,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1.3,
-    "hp_factor": 31.2
+    "hp_factor": 31.2,
+    "role_entry": "weak_ice"
   },
   "ice_zhiye_up4": {
     "id": "ice_zhiye_up4",
@@ -21003,7 +21051,6 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21017,7 +21064,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1.4,
-    "hp_factor": 33.6
+    "hp_factor": 33.6,
+    "role_entry": "weak_ice"
   },
   "ice_zhiye_up5": {
     "id": "ice_zhiye_up5",
@@ -21049,7 +21097,6 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21063,7 +21110,8 @@
     "kv": "1704",
     "recall": 0,
     "atk_factor": 1.5,
-    "hp_factor": 36
+    "hp_factor": 36,
+    "role_entry": "weak_ice"
   },
   "ice_xxy": {
     "id": "ice_xxy",
@@ -21095,7 +21143,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21110,7 +21158,8 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 40,
-    "magic_factor": 1
+    "magic_factor": 1,
+    "role_entry": "weak_ice"
   },
   "ice_xxy_up1": {
     "id": "ice_xxy_up1",
@@ -21143,7 +21192,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21158,7 +21207,8 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "magic_factor": 1.1
+    "magic_factor": 1.1,
+    "role_entry": "weak_ice"
   },
   "ice_xxy_up2": {
     "id": "ice_xxy_up2",
@@ -21191,7 +21241,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21206,7 +21256,8 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "magic_factor": 1.2
+    "magic_factor": 1.2,
+    "role_entry": "weak_ice"
   },
   "ice_xxy_up3": {
     "id": "ice_xxy_up3",
@@ -21239,7 +21290,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21254,7 +21305,8 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "magic_factor": 1.3
+    "magic_factor": 1.3,
+    "role_entry": "weak_ice"
   },
   "ice_xxy_up4": {
     "id": "ice_xxy_up4",
@@ -21287,7 +21339,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21302,7 +21354,8 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "magic_factor": 1.4
+    "magic_factor": 1.4,
+    "role_entry": "weak_ice"
   },
   "ice_xxy_up5": {
     "id": "ice_xxy_up5",
@@ -21335,7 +21388,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21380,7 +21433,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21425,7 +21478,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21470,7 +21523,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21515,7 +21568,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21560,7 +21613,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21605,7 +21658,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21649,7 +21702,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21693,7 +21746,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21737,7 +21790,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21781,7 +21834,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21825,7 +21878,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21869,7 +21922,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21916,7 +21969,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21930,7 +21983,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1,
-    "hp_factor": 8
+    "hp_factor": 8,
+    "role_entry": "weak_ice"
   },
   "ice_jieying_up1": {
     "id": "ice_jieying_up1",
@@ -21963,7 +22017,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -21977,7 +22031,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1.1,
-    "hp_factor": 8.8
+    "hp_factor": 8.8,
+    "role_entry": "weak_ice"
   },
   "ice_jieying_up2": {
     "id": "ice_jieying_up2",
@@ -22010,7 +22065,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22024,7 +22079,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1.2,
-    "hp_factor": 9.6
+    "hp_factor": 9.6,
+    "role_entry": "weak_ice"
   },
   "ice_jieying_up3": {
     "id": "ice_jieying_up3",
@@ -22057,7 +22113,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22071,7 +22127,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1.3,
-    "hp_factor": 10.4
+    "hp_factor": 10.4,
+    "role_entry": "weak_ice"
   },
   "ice_jieying_up4": {
     "id": "ice_jieying_up4",
@@ -22104,7 +22161,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22118,7 +22175,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1.4,
-    "hp_factor": 11.2
+    "hp_factor": 11.2,
+    "role_entry": "weak_ice"
   },
   "ice_jieying_up5": {
     "id": "ice_jieying_up5",
@@ -22151,7 +22209,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22165,7 +22223,8 @@
     "kv": "1708",
     "recall": 0,
     "atk_factor": 1.5,
-    "hp_factor": 12
+    "hp_factor": 12,
+    "role_entry": "weak_ice"
   },
   "1709_up1": {
     "id": "1709_up1",
@@ -22196,7 +22255,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22211,7 +22270,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
-    "hp_factor": 8.8
+    "hp_factor": 8.8,
+    "role_entry": "weak_ice"
   },
   "1709_up2": {
     "id": "1709_up2",
@@ -22242,7 +22302,7 @@
     "cd": 9.6,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22257,7 +22317,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
-    "hp_factor": 9.6
+    "hp_factor": 9.6,
+    "role_entry": "weak_ice"
   },
   "1709_up3": {
     "id": "1709_up3",
@@ -22288,7 +22349,7 @@
     "cd": 9.6,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22303,7 +22364,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
-    "hp_factor": 10.4
+    "hp_factor": 10.4,
+    "role_entry": "weak_ice"
   },
   "1709_up4": {
     "id": "1709_up4",
@@ -22334,7 +22396,7 @@
     "cd": 7.2,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22349,7 +22411,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
-    "hp_factor": 11.2
+    "hp_factor": 11.2,
+    "role_entry": "weak_ice"
   },
   "1709_up5": {
     "id": "1709_up5",
@@ -22380,7 +22443,7 @@
     "cd": 7.2,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22395,7 +22458,8 @@
     "recall": 0,
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
-    "hp_factor": 12
+    "hp_factor": 12,
+    "role_entry": "weak_ice"
   },
   "ice_soda": {
     "id": "ice_soda",
@@ -22423,7 +22487,7 @@
     "cd": 60,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22467,7 +22531,7 @@
     "cd": 54,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22511,7 +22575,7 @@
     "cd": 48,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22555,7 +22619,7 @@
     "cd": 42,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22599,7 +22663,7 @@
     "cd": 36,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22643,7 +22707,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22693,7 +22757,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22707,7 +22771,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1.1,
-    "hp_factor": 26.4
+    "hp_factor": 26.4,
+    "role_entry": "weak_ice"
   },
   "1711_up2": {
     "id": "1711_up2",
@@ -22742,7 +22807,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22756,7 +22821,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1.2,
-    "hp_factor": 28.8
+    "hp_factor": 28.8,
+    "role_entry": "weak_ice"
   },
   "1711_up3": {
     "id": "1711_up3",
@@ -22791,7 +22857,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22805,7 +22871,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1.3,
-    "hp_factor": 31.2
+    "hp_factor": 31.2,
+    "role_entry": "weak_ice"
   },
   "1711_up4": {
     "id": "1711_up4",
@@ -22840,7 +22907,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22854,7 +22921,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1.4,
-    "hp_factor": 33.6
+    "hp_factor": 33.6,
+    "role_entry": "weak_ice"
   },
   "1711_up5": {
     "id": "1711_up5",
@@ -22889,7 +22957,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22903,7 +22971,8 @@
     "kv": "1711",
     "recall": 0,
     "atk_factor": 1.5,
-    "hp_factor": 36
+    "hp_factor": 36,
+    "role_entry": "weak_ice"
   },
   "1712_up1": {
     "id": "1712_up1",
@@ -22937,7 +23006,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -22952,7 +23021,7 @@
     "recall": 0,
     "atk_factor": 1.65,
     "hp_factor": 8.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1712_up2": {
     "id": "1712_up2",
@@ -22986,7 +23055,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23001,7 +23070,7 @@
     "recall": 0,
     "atk_factor": 1.8,
     "hp_factor": 9.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1712_up3": {
     "id": "1712_up3",
@@ -23035,7 +23104,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23050,7 +23119,7 @@
     "recall": 0,
     "atk_factor": 1.95,
     "hp_factor": 10.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1712_up4": {
     "id": "1712_up4",
@@ -23084,7 +23153,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23099,7 +23168,7 @@
     "recall": 0,
     "atk_factor": 2.1,
     "hp_factor": 11.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1712_up5": {
     "id": "1712_up5",
@@ -23133,7 +23202,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23148,7 +23217,7 @@
     "recall": 0,
     "atk_factor": 2.25,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly,threat_ice"
   },
   "1713_up1": {
     "id": "1713_up1",
@@ -23182,7 +23251,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23197,7 +23266,6 @@
     "recall": 0,
     "atk_factor": 1.54,
     "hp_factor": 26.4,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_up2": {
@@ -23232,7 +23300,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23247,7 +23315,6 @@
     "recall": 0,
     "atk_factor": 1.68,
     "hp_factor": 28.8,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_up3": {
@@ -23282,7 +23349,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23297,7 +23364,6 @@
     "recall": 0,
     "atk_factor": 1.82,
     "hp_factor": 31.2,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_up4": {
@@ -23332,7 +23398,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23347,7 +23413,6 @@
     "recall": 0,
     "atk_factor": 1.96,
     "hp_factor": 33.6,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_up5": {
@@ -23382,7 +23447,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23397,7 +23462,6 @@
     "recall": 0,
     "atk_factor": 2,
     "hp_factor": 36,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1714_up1": {
@@ -23431,7 +23495,6 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23478,7 +23541,6 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23525,7 +23587,6 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23572,7 +23633,6 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -23619,7 +23679,6 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -25071,7 +25130,7 @@
     "anti_water": 1,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "watertank_up1": {
@@ -25118,7 +25177,7 @@
     "anti_water": 1,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "watertank_up2": {
@@ -25165,7 +25224,7 @@
     "anti_water": 1,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "watertank_up3": {
@@ -25212,7 +25271,7 @@
     "anti_water": 1,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "watertank_up4": {
@@ -25259,7 +25318,7 @@
     "anti_water": 1,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "watertank_up5": {
@@ -25306,7 +25365,7 @@
     "anti_water": 1,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1",
+    "role_entry": "threat_roll",
     "deep_water": 1
   },
   "hydrant": {
@@ -26135,7 +26194,7 @@
     "anti_water": 1,
     "atk_factor": 1.65,
     "hp_factor": 6.6,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1810_up2": {
@@ -26185,7 +26244,7 @@
     "anti_water": 1,
     "atk_factor": 1.8,
     "hp_factor": 7.2,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1810_up3": {
@@ -26235,7 +26294,7 @@
     "anti_water": 1,
     "atk_factor": 1.95,
     "hp_factor": 7.8,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1810_up4": {
@@ -26285,7 +26344,7 @@
     "anti_water": 1,
     "atk_factor": 2.1,
     "hp_factor": 8.4,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1810_up5": {
@@ -26335,7 +26394,7 @@
     "anti_water": 1,
     "atk_factor": 2.25,
     "hp_factor": 9,
-    "role_entry": "2,10",
+    "role_entry": "threat_fly,threat_water",
     "deep_water": 1
   },
   "1811_up1": {
@@ -27791,7 +27850,7 @@
     "recall": 0,
     "atk_factor": 2,
     "hp_factor": 12,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "xiaobaomei_up1": {
     "id": "xiaobaomei_up1",
@@ -27837,7 +27896,7 @@
     "recall": 0,
     "atk_factor": 2.2,
     "hp_factor": 13.2,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "xiaobaomei_up2": {
     "id": "xiaobaomei_up2",
@@ -27883,7 +27942,7 @@
     "recall": 0,
     "atk_factor": 2.4,
     "hp_factor": 14.4,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "xiaobaomei_up3": {
     "id": "xiaobaomei_up3",
@@ -27929,7 +27988,7 @@
     "recall": 0,
     "atk_factor": 2.6,
     "hp_factor": 15.6,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "xiaobaomei_up4": {
     "id": "xiaobaomei_up4",
@@ -27975,7 +28034,7 @@
     "recall": 0,
     "atk_factor": 2.8,
     "hp_factor": 16.8,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "xiaobaomei_up5": {
     "id": "xiaobaomei_up5",
@@ -28021,7 +28080,7 @@
     "recall": 0,
     "atk_factor": 3,
     "hp_factor": 18,
-    "role_entry": "2,10"
+    "role_entry": "threat_fly"
   },
   "juanjuan": {
     "id": "juanjuan",
@@ -30616,7 +30675,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30630,8 +30689,7 @@
     "recall": 0,
     "atk_factor": 2,
     "hp_factor": 52,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "qiyang_up1": {
     "id": "qiyang_up1",
@@ -30665,7 +30723,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30679,8 +30737,7 @@
     "recall": 0,
     "atk_factor": 2.2,
     "hp_factor": 57.2,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "qiyang_up2": {
     "id": "qiyang_up2",
@@ -30714,7 +30771,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30728,8 +30785,7 @@
     "recall": 0,
     "atk_factor": 2.4,
     "hp_factor": 62.4,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "qiyang_up3": {
     "id": "qiyang_up3",
@@ -30763,7 +30819,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30777,8 +30833,7 @@
     "recall": 0,
     "atk_factor": 2.6,
     "hp_factor": 67.6,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "qiyang_up4": {
     "id": "qiyang_up4",
@@ -30812,7 +30867,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30826,8 +30881,7 @@
     "recall": 0,
     "atk_factor": 2.8,
     "hp_factor": 72.8,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "qiyang_up5": {
     "id": "qiyang_up5",
@@ -30861,7 +30915,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "light_defence": 100,
+    "light_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -30875,8 +30929,7 @@
     "recall": 0,
     "atk_factor": 3,
     "hp_factor": 78,
-    "mark": "tiansan",
-    "role_entry": "1"
+    "mark": "tiansan"
   },
   "fengling": {
     "id": "fengling",
@@ -31178,7 +31231,6 @@
     "atk_factor": 1.4,
     "hp_factor": 16,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -31226,7 +31278,6 @@
     "atk_factor": 1.54,
     "hp_factor": 17.6,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -31274,7 +31325,6 @@
     "atk_factor": 1.68,
     "hp_factor": 19.2,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -31322,7 +31372,6 @@
     "atk_factor": 1.82,
     "hp_factor": 20.8,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -31370,7 +31419,6 @@
     "atk_factor": 1.96,
     "hp_factor": 22.4,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -31418,7 +31466,6 @@
     "atk_factor": 2.1,
     "hp_factor": 24,
     "mark": "tiansan",
-    "role_entry": "2,10",
     "defult_height": 30,
     "formation_career": " shooter"
   },
@@ -33099,7 +33146,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，造成小范围的伤害，但是无法攻击到离自己较近的敌人。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1.6,
@@ -33146,7 +33193,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，造成小范围的伤害。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "atk_factor": 1.6,
     "hp_factor": 4,
@@ -33192,7 +33239,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，造成小范围的伤害。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "atk_factor": 1.6,
     "hp_factor": 4,
@@ -33238,7 +33285,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，造成小范围的伤害。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "atk_factor": 1.6,
     "hp_factor": 4,
@@ -33284,7 +33331,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，造成小范围的伤害。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "atk_factor": 1.6,
     "hp_factor": 4,
@@ -33330,7 +33377,7 @@
     "attr": "cake",
     "shadow": "small",
     "intro": "使用红包枪攻击敌人，攻击方式为曲线射击，，造成小范围的伤害，对飞行的单位造成额外伤害。",
-    "kv": "1501",
+    "kv": "1108_skin1",
     "recall": 0,
     "atk_factor": 1.6,
     "hp_factor": 4,
@@ -33665,7 +33712,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -33714,7 +33761,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -33763,7 +33810,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -33812,7 +33859,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -33861,7 +33908,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -33910,7 +33957,7 @@
     "shadow": "small",
     "intro": "在睡梦地图中，为团队提供能量。过一段时间后，会呼呼大睡，能量产出提升。",
     "special_look": "change",
-    "kv": "23",
+    "kv": "1202_skin1",
     "recall": 0,
     "skin_tags": "2",
     "atk_factor": 1,
@@ -36482,8 +36529,8 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1503,
-    "spinecfg": "cfg_jiao_up",
-    "behavior": "ai_jiao_up",
+    "spinecfg": "cfg_jiao",
+    "behavior": "ai_jiao_up1",
     "attackunitorder": "0",
     "career": "support",
     "passive": 15032,
@@ -36531,7 +36578,7 @@
     "spine_offset_y": 30,
     "major": 1503,
     "spinecfg": "cfg_jiao_up",
-    "behavior": "ai_jiao_up",
+    "behavior": "ai_jiao_up2",
     "attackunitorder": "0",
     "career": "support",
     "passive": 15032,
@@ -36580,7 +36627,7 @@
     "spine_offset_y": 30,
     "major": 1503,
     "spinecfg": "cfg_jiao_up",
-    "behavior": "ai_jiao_up",
+    "behavior": "ai_jiao_up3",
     "attackunitorder": "0",
     "career": "support",
     "passive": 15033,
@@ -36629,7 +36676,7 @@
     "spine_offset_y": 30,
     "major": 1503,
     "spinecfg": "cfg_jiao_up",
-    "behavior": "ai_jiao_up",
+    "behavior": "ai_jiao_up4",
     "attackunitorder": "0",
     "career": "support",
     "passive": 15033,
@@ -36678,7 +36725,7 @@
     "spine_offset_y": 30,
     "major": 1503,
     "spinecfg": "cfg_jiao_up",
-    "behavior": "ai_jiao_up",
+    "behavior": "ai_jiao_up5",
     "attackunitorder": "0",
     "career": "support",
     "passive": 15034,
@@ -37026,7 +37073,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -37074,7 +37121,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -37122,7 +37169,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -37170,7 +37217,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -37218,7 +37265,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -37266,7 +37313,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38431,7 +38478,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38479,7 +38526,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38527,7 +38574,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38575,7 +38622,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38623,7 +38670,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38671,7 +38718,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38719,7 +38766,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38768,7 +38815,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38817,7 +38864,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38866,7 +38913,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38915,7 +38962,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -38964,7 +39011,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41254,7 +41301,7 @@
     "cd": 60,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41304,7 +41351,7 @@
     "cd": 57,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41354,7 +41401,7 @@
     "cd": 54,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41404,7 +41451,7 @@
     "cd": 54,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41454,7 +41501,7 @@
     "cd": 50,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -41504,7 +41551,7 @@
     "cd": 50,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -43245,7 +43292,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1806_skin1_up1": {
     "id": "1806_skin1_up1",
@@ -43292,7 +43339,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1806_skin1_up2": {
     "id": "1806_skin1_up2",
@@ -43339,7 +43386,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1806_skin1_up3": {
     "id": "1806_skin1_up3",
@@ -43386,7 +43433,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1806_skin1_up4": {
     "id": "1806_skin1_up4",
@@ -43433,7 +43480,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1806_skin1_up5": {
     "id": "1806_skin1_up5",
@@ -43480,7 +43527,7 @@
     "atk_factor": 0.5,
     "hp_factor": 40,
     "magic_factor": 0.5,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "11006_skin1": {
     "id": "11006_skin1",
@@ -44645,7 +44692,7 @@
     "atk_factor": 0,
     "hp_factor": 40,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_skin2_up1": {
     "id": "1104_skin2_up1",
@@ -44690,7 +44737,7 @@
     "atk_factor": 0,
     "hp_factor": 44,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_skin2_up2": {
     "id": "1104_skin2_up2",
@@ -44735,7 +44782,7 @@
     "atk_factor": 0,
     "hp_factor": 48,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_skin2_up3": {
     "id": "1104_skin2_up3",
@@ -44780,7 +44827,7 @@
     "atk_factor": 0,
     "hp_factor": 52,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_skin2_up4": {
     "id": "1104_skin2_up4",
@@ -44825,7 +44872,7 @@
     "atk_factor": 0,
     "hp_factor": 56,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1104_skin2_up5": {
     "id": "1104_skin2_up5",
@@ -44870,7 +44917,7 @@
     "atk_factor": 0,
     "hp_factor": 60,
     "magic_factor": 0,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1811_skin1": {
     "id": "1811_skin1",
@@ -45195,7 +45242,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45241,7 +45288,7 @@
     "cd": 30,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45287,7 +45334,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45333,7 +45380,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45379,7 +45426,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45425,7 +45472,7 @@
     "cd": 18,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 25,
+    "fire_defence": 0,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45469,7 +45516,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45517,7 +45564,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45565,7 +45612,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45613,7 +45660,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45661,7 +45708,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45709,7 +45756,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -45758,7 +45805,7 @@
     "cd": 40,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -45773,7 +45820,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1703_skin1_up1": {
     "id": "1703_skin1_up1",
@@ -45807,7 +45854,7 @@
     "cd": 40,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -45822,7 +45869,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1703_skin1_up2": {
     "id": "1703_skin1_up2",
@@ -45856,7 +45903,7 @@
     "cd": 32,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -45871,7 +45918,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1703_skin1_up3": {
     "id": "1703_skin1_up3",
@@ -45905,7 +45952,7 @@
     "cd": 32,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -45920,7 +45967,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1703_skin1_up4": {
     "id": "1703_skin1_up4",
@@ -45954,7 +46001,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -45969,7 +46016,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1703_skin1_up5": {
     "id": "1703_skin1_up5",
@@ -46003,7 +46050,7 @@
     "cd": 24,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 2,
@@ -46018,7 +46065,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "11007_skin1": {
     "id": "11007_skin1",
@@ -46338,7 +46385,7 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 40,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_skin1_up1": {
     "id": "1304_skin1_up1",
@@ -46384,7 +46431,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 44,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_skin1_up2": {
     "id": "1304_skin1_up2",
@@ -46430,7 +46477,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 48,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_skin1_up3": {
     "id": "1304_skin1_up3",
@@ -46476,7 +46523,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 52,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_skin1_up4": {
     "id": "1304_skin1_up4",
@@ -46522,7 +46569,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 56,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1304_skin1_up5": {
     "id": "1304_skin1_up5",
@@ -46568,7 +46615,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 60,
-    "role_entry": "1"
+    "role_entry": "threat_roll"
   },
   "1810_skin1": {
     "id": "1810_skin1",
@@ -47804,7 +47851,7 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1503,
-    "spinecfg": "cfg_jiao",
+    "spinecfg": "cfg_jiao_up",
     "behavior": "ai_jiao_up2",
     "attackunitorder": "0",
     "career": "support",
@@ -47853,7 +47900,7 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1503,
-    "spinecfg": "cfg_jiao",
+    "spinecfg": "cfg_jiao_up",
     "behavior": "ai_jiao_up3",
     "attackunitorder": "0",
     "career": "support",
@@ -47902,7 +47949,7 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1503,
-    "spinecfg": "cfg_jiao",
+    "spinecfg": "cfg_jiao_up",
     "behavior": "ai_jiao_up4",
     "attackunitorder": "0",
     "career": "support",
@@ -47951,7 +47998,7 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1503,
-    "spinecfg": "cfg_jiao",
+    "spinecfg": "cfg_jiao_up",
     "behavior": "ai_jiao_up5",
     "attackunitorder": "0",
     "career": "support",
@@ -48287,7 +48334,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48335,7 +48382,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48383,7 +48430,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48431,7 +48478,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48479,7 +48526,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48527,7 +48574,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -48866,7 +48913,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 4,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1205_skin2_up1": {
     "id": "1205_skin2_up1",
@@ -48915,7 +48962,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 4.4,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1205_skin2_up2": {
     "id": "1205_skin2_up2",
@@ -48964,7 +49011,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 4.8,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1205_skin2_up3": {
     "id": "1205_skin2_up3",
@@ -49013,7 +49060,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 5.2,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1205_skin2_up4": {
     "id": "1205_skin2_up4",
@@ -49062,7 +49109,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 5.6,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1205_skin2_up5": {
     "id": "1205_skin2_up5",
@@ -49111,7 +49158,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 6,
-    "role_entry": "2,10,11"
+    "role_entry": "threat_fly,threat_sneak"
   },
   "1610_skin1": {
     "id": "1610_skin1",
@@ -50010,7 +50057,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1,
     "hp_factor": 24,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1206_skin1_up1": {
     "id": "1206_skin1_up1",
@@ -50056,7 +50103,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.1,
     "hp_factor": 26.4,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1206_skin1_up2": {
     "id": "1206_skin1_up2",
@@ -50102,7 +50149,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.2,
     "hp_factor": 28.8,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1206_skin1_up3": {
     "id": "1206_skin1_up3",
@@ -50148,7 +50195,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.3,
     "hp_factor": 31.2,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1206_skin1_up4": {
     "id": "1206_skin1_up4",
@@ -50194,7 +50241,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.4,
     "hp_factor": 33.6,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1206_skin1_up5": {
     "id": "1206_skin1_up5",
@@ -50240,7 +50287,7 @@
     "lockturnbacklimit": 1,
     "atk_factor": 1.5,
     "hp_factor": 36,
-    "role_entry": "11"
+    "role_entry": "threat_sneak"
   },
   "1203_skin1": {
     "id": "1203_skin1",
@@ -52807,7 +52854,7 @@
     "skin_tags": "2",
     "atk_factor": 1,
     "hp_factor": 8,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "1212_skin2_up1": {
@@ -52854,7 +52901,7 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 8.8,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "1212_skin2_up2": {
@@ -52901,7 +52948,7 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 9.6,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "1212_skin2_up3": {
@@ -52948,7 +52995,7 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 10.4,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "1212_skin2_up4": {
@@ -52995,7 +53042,7 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 11.2,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "1212_skin2_up5": {
@@ -53042,7 +53089,7 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 12,
-    "role_entry": "8,11",
+    "role_entry": "threat_catch,threat_sneak",
     "card_bg_pos": -200
   },
   "11008_skin2": {
@@ -54424,7 +54471,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54470,7 +54517,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54516,7 +54563,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54562,7 +54609,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54608,7 +54655,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54654,7 +54701,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -54702,7 +54749,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54749,7 +54796,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54796,7 +54843,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54843,7 +54890,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54890,7 +54937,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54937,7 +54984,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 50,
+    "fire_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -54982,7 +55029,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55029,7 +55076,7 @@
     "cd": 20,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55076,7 +55123,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55123,7 +55170,7 @@
     "cd": 16,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55170,7 +55217,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55217,7 +55264,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "fire_defence": 100,
+    "fire_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 3,
@@ -55279,7 +55326,7 @@
     "hp_factor": 40,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_up1": {
     "id": "1111_skin2_up1",
@@ -55328,7 +55375,7 @@
     "hp_factor": 44,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_up2": {
     "id": "1111_skin2_up2",
@@ -55377,7 +55424,7 @@
     "hp_factor": 48,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_up3": {
     "id": "1111_skin2_up3",
@@ -55426,7 +55473,7 @@
     "hp_factor": 52,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_up4": {
     "id": "1111_skin2_up4",
@@ -55475,7 +55522,7 @@
     "hp_factor": 56,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_up5": {
     "id": "1111_skin2_up5",
@@ -55524,7 +55571,7 @@
     "hp_factor": 60,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1": {
     "id": "1111_skin2_1",
@@ -55572,7 +55619,7 @@
     "hp_factor": 40,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1_up1": {
     "id": "1111_skin2_1_up1",
@@ -55621,7 +55668,7 @@
     "hp_factor": 44,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1_up2": {
     "id": "1111_skin2_1_up2",
@@ -55670,7 +55717,7 @@
     "hp_factor": 48,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1_up3": {
     "id": "1111_skin2_1_up3",
@@ -55719,7 +55766,7 @@
     "hp_factor": 52,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1_up4": {
     "id": "1111_skin2_1_up4",
@@ -55768,7 +55815,7 @@
     "hp_factor": 56,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1111_skin2_1_up5": {
     "id": "1111_skin2_1_up5",
@@ -55817,7 +55864,7 @@
     "hp_factor": 60,
     "is_can_plant_building_top": 1,
     "can_plant_floor": "34",
-    "role_entry": "1,16"
+    "role_entry": "threat_roll,threat_dig"
   },
   "1709_skin4": {
     "id": "1709_skin4",
@@ -55848,7 +55895,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -55896,7 +55943,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -55944,7 +55991,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -55992,7 +56039,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -56040,7 +56087,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -56088,7 +56135,7 @@
     "cd": 25,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 100,
+    "ice_defence": 50,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -60568,7 +60615,6 @@
     "recall": 0,
     "atk_factor": 1,
     "hp_factor": 24,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_skin1_up1": {
@@ -60618,7 +60664,6 @@
     "recall": 0,
     "atk_factor": 1.1,
     "hp_factor": 26.4,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_skin1_up2": {
@@ -60668,7 +60713,6 @@
     "recall": 0,
     "atk_factor": 1.2,
     "hp_factor": 28.8,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_skin1_up3": {
@@ -60718,7 +60762,6 @@
     "recall": 0,
     "atk_factor": 1.3,
     "hp_factor": 31.2,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_skin1_up4": {
@@ -60768,7 +60811,6 @@
     "recall": 0,
     "atk_factor": 1.4,
     "hp_factor": 33.6,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1713_skin1_up5": {
@@ -60818,7 +60860,6 @@
     "recall": 0,
     "atk_factor": 1.5,
     "hp_factor": 36,
-    "role_entry": "2,10",
     "defult_height": 30
   },
   "1714_skin1": {
@@ -61659,6 +61700,308 @@
     "atk_factor": 1.5,
     "hp_factor": 12
   },
+  "1610_skin2": {
+    "id": "1610_skin2",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 16102,
+    "XP": 16105,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-450,-150)(450,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "cost": "200",
+    "olpvp_cost": "olpvp_1610",
+    "cd": 20,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1,
+    "hp_factor": 20,
+    "role_entry": "threat_fly,threat_sneak"
+  },
+  "1610_skin2_up1": {
+    "id": "1610_skin2_up1",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 161021,
+    "XP": 161051,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-450,-150)(450,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "abnormality_mastery": 0.5,
+    "cost": "200",
+    "olpvp_cost": "olpvp_1610",
+    "star_up_intro": "异常效果造成的伤害提升50%；技能等级加+1",
+    "cd": 20,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1.1,
+    "hp_factor": 22,
+    "role_entry": "threat_fly,threat_sneak"
+  },
+  "1610_skin2_up2": {
+    "id": "1610_skin2_up2",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 161022,
+    "XP": 161052,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-450,-150)(450,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "abnormality_speed": 0.25,
+    "abnormality_mastery": 0.5,
+    "cost": "200",
+    "olpvp_cost": "olpvp_1610",
+    "star_up_intro": "异常积蓄速率提升25%；角色冷却时间缩短至基础的80%；技能等级加+1",
+    "cd": 16,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1.2,
+    "hp_factor": 24,
+    "role_entry": "threat_fly,threat_sneak"
+  },
+  "1610_skin2_up3": {
+    "id": "1610_skin2_up3",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610_up2",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 161023,
+    "XP": 161053,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-550,-150)(550,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "abnormality_speed": 0.25,
+    "abnormality_mastery": 1,
+    "cost": "200",
+    "olpvp_cost": "olpvp_1610",
+    "star_up_intro": "异常效果造成的伤害提升50%；射程向前后扩展1列；技能等级加+2",
+    "cd": 16,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1.3,
+    "hp_factor": 26,
+    "role_entry": "threat_fly,threat_sneak"
+  },
+  "1610_skin2_up4": {
+    "id": "1610_skin2_up4",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610_up4",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 161024,
+    "XP": 161054,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-550,-150)(550,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "abnormality_speed": 0.5,
+    "abnormality_mastery": 1,
+    "cost": "160",
+    "olpvp_cost": "olpvp_1610_up4",
+    "star_up_intro": "异常积蓄速率提升25%；角色冷却时间缩短至基础的60%；角色费用降低20%；技能等级+2",
+    "cd": 12,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1.4,
+    "hp_factor": 28,
+    "role_entry": "threat_fly,threat_sneak"
+  },
+  "1610_skin2_up5": {
+    "id": "1610_skin2_up5",
+    "skin": "1610_skin2",
+    "name": "炽热射线",
+    "spine_model": "1610_skin2",
+    "role_image": "1610_skin2",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1610,
+    "spinecfg": "cfg_1610",
+    "behavior": "ai_1610_up4",
+    "attackunitorder": "2",
+    "career": "abnormal",
+    "passive": 16101,
+    "passive_up": 204,
+    "skill1": 161025,
+    "XP": 161055,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 50,
+    "hp_appraise_value": 2,
+    "range": "[(-650,-150)(650,150)]",
+    "attackspeed": 4,
+    "movingspeed": 0,
+    "abnormality_speed": 0.5,
+    "abnormality_mastery": 2,
+    "cost": "160",
+    "olpvp_cost": "olpvp_1610_up4",
+    "star_up_intro": "异常效果造成的伤害提升100%；射程向前后扩展1列；技能等级加+3",
+    "cd": 12,
+    "first_cd": 0,
+    "defence": 0,
+    "fire_defence": 25,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 1,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "fire",
+    "shadow": "small",
+    "intro": "使用强大的热光线攻击敌人使其燃烧。",
+    "tags": "fire",
+    "kv": "1610_skin2",
+    "recall": 0,
+    "lockturnbacklimit": 1,
+    "atk_factor": 1.5,
+    "hp_factor": 30,
+    "role_entry": "threat_fly,threat_sneak"
+  },
   "zhilu_up_teshu": {
     "id": "zhilu_up_teshu",
     "skin": "1307",
@@ -61754,8 +62097,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -61775,7 +62116,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -61802,8 +62143,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712_skin1_up1",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -61824,7 +62163,7 @@
     "cd": 15,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -61851,8 +62190,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712_skin1_up2",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -61873,7 +62210,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -61900,8 +62237,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712_skin1_up3",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -61922,7 +62257,7 @@
     "cd": 12,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -61949,8 +62284,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712_skin1_up4",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -61971,7 +62304,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -61998,8 +62331,6 @@
     "modelheight": 100,
     "spine_offset_y": 30,
     "major": 1712,
-    "spinecfg": "cfg_1712_skin1_up5",
-    "behavior": "ai_1712",
     "attackunitorder": "1",
     "career": "throw",
     "passive": 17120,
@@ -62020,7 +62351,7 @@
     "cd": 9,
     "first_cd": 0,
     "defence": 0,
-    "ice_defence": 50,
+    "ice_defence": 25,
     "force": 0,
     "reforce": 1000,
     "wreck": 0,
@@ -62035,5 +62366,286 @@
     "recall": 0,
     "atk_factor": 2.25,
     "hp_factor": 12
+  },
+  "1109_skin4": {
+    "id": "1109_skin4",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11104,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "cd": 25,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
+  },
+  "1109_skin4_up1": {
+    "id": "1109_skin4_up1",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11105,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "star_up_intro": "“挤奶油”冷却时间减少3秒。",
+    "cd": 25,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
+  },
+  "1109_skin4_up2": {
+    "id": "1109_skin4_up2",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_up3_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11106,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "star_up_intro": "“挤奶油”冷却时间减少3秒。",
+    "cd": 25,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
+  },
+  "1109_skin4_up3": {
+    "id": "1109_skin4_up3",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_up3_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11106,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "star_up_intro": "登场时立刻产出2次奶油。",
+    "cd": 20,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
+  },
+  "1109_skin4_up4": {
+    "id": "1109_skin4_up4",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_up4_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11106,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "star_up_intro": "奥义产出能量增至8费。",
+    "cd": 20,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
+  },
+  "1109_skin4_up5": {
+    "id": "1109_skin4_up5",
+    "skin": "1109_skin4",
+    "name": "裱花千竹",
+    "spine_model": "1109_skin4",
+    "role_image": "1109_skin4",
+    "modelscale": 1,
+    "modelweight": 100,
+    "modelheight": 100,
+    "spine_offset_y": 30,
+    "major": 1109,
+    "spinecfg": "cfg_biaohua_up5_skin4",
+    "behavior": "ai_biaohua",
+    "attackunitorder": "0",
+    "career": "farmer",
+    "passive": 10101,
+    "passive_up": 204,
+    "skill1": 11103,
+    "skill2": 11106,
+    "XP": 11107,
+    "extra_damage": 0,
+    "extra_hp": 0,
+    "attack_appraise_value": 0,
+    "hp_appraise_value": 1,
+    "range": "[(-50,-50)(50,50)]",
+    "attackspeed": 0,
+    "movingspeed": 0,
+    "cost": "75",
+    "star_up_intro": "登场时立刻产出3次奶油。",
+    "cd": 15,
+    "first_cd": 0,
+    "defence": 0,
+    "force": 0,
+    "reforce": 1000,
+    "wreck": 0,
+    "wreck_recover": 3,
+    "imbalance_time": 5,
+    "attr": "cake",
+    "shadow": "small",
+    "intro": "全都能给你挤完！登场后立即产出大量能量，随后留在场上每隔一段时间产出一些能量。",
+    "kv": "1109_skin4",
+    "recall": 0,
+    "anti_water": 1,
+    "atk_factor": 1,
+    "hp_factor": 4,
+    "magic_factor": 1
   }
 }
